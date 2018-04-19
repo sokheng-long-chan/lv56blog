@@ -26,27 +26,21 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content" id="app">
-                <div class="title m-b-md">                    
-                    <example-component>
-                    
-                    </example-component>
-                </div>
-
-            </div>
-        </div>
+    	<div id="app">	
+	        <ul class="nav nav-tabs">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="#">Active</a>
+			  </li>
+			  <li class="nav-item">
+			    <router-link to="/example">Example</router-link>
+			  </li>
+			  <li class="nav-item">
+			    <router-link to="/sample">Sample</router-link>
+			  </li>			  
+			</ul>
+			<router-view></router-view>
+		</div>
+		
         
         <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     </body>

@@ -2,11 +2,11 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="card bg-primary text-white">
+                <div class="card bg-success text-warning">
                     <div class="card-header">Card Header</div>
 
                     <div class="card-body">
-                        Hello {{name}}
+                        Card Body.
                     </div>
                 </div>
             </div>
@@ -17,12 +17,10 @@
 <script>
     export default {
         mounted() {
-            console.log('Example Component mounted.')
-        },
-        data(){
-        	return{
-        		name: "Sokheng"
-        	}
+            console.log('Sample Component mounted.')
         }
     }
 </script>
+<style type="text/css" scoped>
+ 
+</style>
