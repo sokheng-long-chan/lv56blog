@@ -6,23 +6,19 @@
                     <div class="card-header">Card Header</div>
 
                     <div class="card-body">
-                        Hello {{name}}
+                        Hello MEF
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
-
 <script>
     export default {
         mounted() {
             console.log('Example Component mounted.')
-        },
-        data(){
-        	return{
-        		name: "Sokheng"
-        	}
         }
+
     }
 </script>

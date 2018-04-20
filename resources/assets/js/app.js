@@ -27,7 +27,6 @@ const routes =[
         	path: '/sample',
         	component: sample
         }
-               
       ];
 
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));

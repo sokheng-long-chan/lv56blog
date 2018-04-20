@@ -26,18 +26,25 @@
         </style>
     </head>
     <body>
-    	<div id="app">	
-	        <ul class="nav nav-tabs">
-			  <li class="nav-item">
-			    <a class="nav-link active" href="#">Active</a>
-			  </li>
-			  <li class="nav-item">
-			    <router-link to="/example">Example</router-link>
-			  </li>
-			  <li class="nav-item">
-			    <router-link to="/sample">Sample</router-link>
-			  </li>			  
-			</ul>
+    	<div id="app">
+    		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<!-- Links -->
+			  <ul class="navbar-nav">
+			    <li class="nav-item">
+			       <router-link to="/example">Example</router-link>
+			    </li>
+			    <li class="nav-item">
+			      <router-link to="/sample">Sample</router-link>
+			    </li>
+			  </ul>
+			
+			  <!-- Navbar text-->
+			  <span class="navbar-text">
+			    Navbar text
+			  </span>
+			
+			</nav>
+
 			<router-view></router-view>
 		</div>
 		
