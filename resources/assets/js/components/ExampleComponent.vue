@@ -4,10 +4,8 @@
             <div class="col-md-8">
                 <div class="card bg-primary text-white">
                     <div class="card-header">Card Header</div>
-
                     <div class="card body">
                         Hello MEF
-
                     </div>
                 </div>
             </div>
