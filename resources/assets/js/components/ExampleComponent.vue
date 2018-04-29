@@ -5,7 +5,7 @@
                 <div class="card bg-primary text-white">
                     <div class="card-header">Card Header</div>
 
-                    <div class="card-body">
+                    <div class="card body">
                         Hello MEF
 
                     </div>
